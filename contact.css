@@ -3,19 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    text-align: center;
-    color: darksalmon;
-    padding-top: 80px;
-}
-h4{
-    text-align: center;
-    color: seashell;
-    padding-top: 20px;
-}
-body{
-    background-color: silver;
-}
+
 .dropbtn {
     display: inline-block;
     color: white;

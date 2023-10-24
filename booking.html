@@ -23,12 +23,13 @@
 </div>
 <div class="container">
 <legend>Booking A Table</legend>
+  <form action="action_page.php">
     <div class="row">
       <div class="col-25">
         <label for="fname">First Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
       </div>
     </div>
     <div class="row">
@@ -36,7 +37,7 @@
         <label for="lname">Last Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
       </div>
     </div>
     <div class="row">
@@ -44,7 +45,7 @@
         <label for="Booking">Book A table</label>
       </div>
       <div class="col-75">
-        <input type="text" id="Book a table" name="Book a table" placeholder="Book a table" required>
+        <input type="text" id="Book a table" name="Book a table" placeholder="Book a table">
       </div>
     </div>
     <div class="row">
@@ -52,12 +53,13 @@
         <label for="Date for BooKing">Date for Booking</label>
       </div>
       <div class="col-75">
-        <input type="datetime-local" name="Date for BooKing" id="Date for BooKing" required>
+        <input type="datetime-local" name="Date for BooKing" id="Date for BooKing">
       </div>
     </div>
     <div class="row">
       <input type="button" value="Submit">
     </div>
+  </form>  
 </div>
 </body>
 </html> 
